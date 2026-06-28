@@ -1,18 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .hero {
     background-color: #1F2937;
     display: flex;
-    width: 100vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 0;
 }
 
 .hero-content {
@@ -34,7 +31,6 @@ header a {
 header,
 footer {
     background-color: #1F2937;
-    width: 100vw;
 }
 
 .logo {
@@ -48,6 +44,7 @@ button {
     color: white;
     border-radius: 5px;
     border-color: #3882F6;
+    padding: 10px;
 }
 
 .placeholder {
@@ -87,29 +84,34 @@ a {
 
 .cards {
     display: flex;
-    gap: 50px;
+    gap: 100px;
+
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
 }
 
 .card-img {
     border-width: 3px;
     border-style: solid;
-    height: 50px;
-    width: 50px;
-    border-color: blue;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
+    border-color: #3882F6;
 }
 
 .action {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     background-color: #3882F6;
     color: white;
-    width: 800px;
     justify-content: space-between;
     padding: 20px 70px;
 }
@@ -119,16 +121,16 @@ a {
 }
 
 .quote {
-    background-color: grey;
-    width: 100vw;
+    background-color: #e5e7eB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
     display: flex;
+    justify-content: center;
     align-content: center;
 }
 
-.thor {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 footer {
     color: white;
