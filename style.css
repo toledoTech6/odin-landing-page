@@ -130,13 +130,15 @@ a {
 }
 
 .quote {
-    width: 600px;
+    padding: 50px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
 }
 
 .quote-author {
     text-align: right;
+    font-weight: bold;
 }
 
 footer {
